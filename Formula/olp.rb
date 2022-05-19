@@ -9,7 +9,7 @@ class Olp < Formula
 
   def install
     libexec.install "cli_2.12-11.1.0.jar"
-    bin.write_jar_script libexec/"cli_2.12-11.1.0.jar", "olp", java_opts: "-Dfile.encoding=UTF8"
+    bin.write_jar_script libexec/"cli_2.12-11.1.0.jar", "olp", "-Dfile.encoding=UTF8"
   end
 
 end
