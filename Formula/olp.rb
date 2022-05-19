@@ -1,8 +1,8 @@
 class Olp < Formula
   desc "Test"
   homepage "https://github/devtonhere/bottle-test"
-  url "https://raw.githubusercontent.com/devtonhere/bottle-test/main/bottle.zip", :using => :curl
-  version "0.0.2"
+  url "https://raw.githubusercontent.com/devtonhere/bottle-test/main/bottle2.zip", :using => :curl
+  version "0.0.3"
   license ""
 
   depends_on "openjdk@8"
