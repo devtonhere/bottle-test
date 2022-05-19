@@ -1,14 +1,15 @@
 class Olp < Formula
-  desc "Use the Command Line Interface (CLI) to access HERE platform services from a command line or with scripts."
-  homepage "https://platform.in.here.com/sdk/cli"
-  url "https://artifact.api.platform.here.com/v1/references/hrn:here:artifact:::com.here.platform:cli:11.1.0/cli-11.1.0.zip\?apiKey\=84q8N9DRx6YAqyJaXUpr9fhiTnCUIBzvHLpk3QU4Oaw", :using => :curl
-  version "11.1.0"
+  desc "Test"
+  homepage "https://github/devtonhere/bottle-test"
+  url "https://raw.githubusercontent.com/devtonhere/bottle-test/main/bottle.zip", :using => :curl
+  version "0.0.1"
   license ""
 
   depends_on "openjdk@8"
 
   def install
-    bin.install "olp"
+    bin.install "hello-shawn"
+    bin.install "hello.jar"
   end
 
 end
