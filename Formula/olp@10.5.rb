@@ -14,7 +14,7 @@ class OlpAT105 < Formula
     bin.write_jar_script libexec/"cli_2.12-10.5.125.jar", "olp", "-Dfile.encoding=UTF8"
   end
 
-  def test do
+  test do
     system bin/"olp", "version", "--help"
   end
 
