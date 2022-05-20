@@ -8,8 +8,14 @@ class OlpAT105 < Formula
   depends_on "openjdk@8"
 
   def install
+    prefix.install "HERE_NOTICE"
+    prefix.install "LICENSE"
     libexec.install "cli_2.12-10.5.125.jar"
     bin.write_jar_script libexec/"cli_2.12-10.5.125.jar", "olp", "-Dfile.encoding=UTF8"
+  end
+
+  def test do
+    system bin/"olp", "version", "--help"
   end
 
 end
