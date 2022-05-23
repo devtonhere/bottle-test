@@ -1,7 +1,8 @@
 class OlpAT1110 < Formula
   desc "With the Command Line Interface you can access HERE platform services from a command line or with scripts."
   homepage "platform.in.here.com/sdk/cli"
-  url "https://artifact.api.platform.here.com/v1/references/hrn:here:artifact:::com.here.platform:cli:11.1.0/cli-11.1.0.zip\?apiKey\=84q8N9DRx6YAqyJaXUpr9fhiTnCUIBzvHLpk3QU4Oaw"
+  url "https://artifact.api.platform.here.com/v1/references/hrn:here:artifact:::com.here.platform:cli:11.1.0/cli-11.1.0.gz\?apiKey\=84q8N9DRx6YAqyJaXUpr9fhiTnCUIBzvHLpk3QU4Oaw"
+  sha256 "cc2443e8c8ae6599e5ca4b35cc4d2f42b4eb902471d44195e7a3b6b19bcf8f57"
   version "11.1.0"
   license "Proprietary"
 
